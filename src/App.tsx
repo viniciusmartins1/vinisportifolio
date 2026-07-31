@@ -6,8 +6,7 @@ function App() {
 
   return (
     <div>
-      {t("helloWorld")}
-      <br />
+      <h2 className="text-3xl font-bold underline">{t("helloWorld")}</h2>
       {i18nLanguages.map(({ lng }) => (
         <button onClick={() => i18n.changeLanguage(lng)}>{lng}</button>
       ))}
