@@ -1,5 +1,18 @@
 {
   "translation": {
-    "helloWorld": "Hello World"
+    "helloWorld": "Hello World",
+    "components": {
+      "header": {
+        "logo": "logo with my nickname 'vini' and wrapped by code brackets",
+        "menu": {
+          "home": "Home",
+          "about": "About me",
+          "skills": "Skills",
+          "career": "Career",
+          "projects": "Projects",
+          "contact": "Contact"
+        }
+      }
+    }
   }
 }
