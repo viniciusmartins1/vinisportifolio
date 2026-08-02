@@ -21,7 +21,7 @@ const Header = () => {
       />
 
       <ul className=" flex gap-8 content-center flex-wrap text-2xl">
-        {menus.map(({ menu, id }) => {
+        {menus.map(({ menu, id, link }) => {
           return (
             <li>
               <a
@@ -35,6 +35,7 @@ const Header = () => {
                   hover:text-primary 
                   ${id === menuActive && "text-primary"}
                 `}
+                href={link}
                 onClick={() => setMenuActive(id)}
               >
                 {t(`components.header.menu.${menu}`).toLocaleLowerCase()}

@@ -3,6 +3,7 @@ import { FIVE, FOUR, ONE, SIX, THREE, TWO } from "../constants/numbers";
 interface IMenu {
   id: number;
   menu: string;
+  sectionId: string;
   link: string;
 }
 
@@ -10,31 +11,37 @@ export const menus: IMenu[] = [
   {
     id: ONE,
     menu: "home",
-    link: "",
+    sectionId: "home-section",
+    link: "#home-section",
   },
   {
     id: TWO,
     menu: "about",
-    link: "",
+    sectionId: "about-section",
+    link: "#about-section",
   },
   {
     id: THREE,
     menu: "skills",
-    link: "",
+    sectionId: "skills-section",
+    link: "#skills-section",
   },
   {
     id: FOUR,
     menu: "career",
-    link: "",
+    sectionId: "career-section",
+    link: "#career-section",
   },
   {
     id: FIVE,
     menu: "projects",
-    link: "",
+    sectionId: "projects-section",
+    link: "#projects-section",
   },
   {
     id: SIX,
     menu: "contact",
-    link: "",
+    sectionId: "contact-section",
+    link: "#contact-section",
   },
 ];

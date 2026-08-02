@@ -21,6 +21,14 @@
         "description": "An Software Engineering Specialist passionate about sharing knowledge ",
         "getInTouch": "Get in Touch",
         "imgDescription": "An photo of my self in a Gibby style with a pink gratient background"
+      },
+      "aboutMe": {
+        "title": "About me",
+        "imgDescription": "An photo of my self with two shaddows of the same picture, one in red and the other one in blue",
+        "paragraphOne": "My name is Vinicius, and I am a Front-End Developer with over four years of hands-on experience building, maintaining, and supporting web applications using technologies such as React, Angular, TypeScript, and JavaScript.",
+        "paragraphTwo": "I have contributed to projects focused on responsive design, performance optimization, and scalable UI architecture. I also have experience with automated testing, version control, CI/CD pipelines, and DevOps practices, helping ensure code quality and reliable deployments.",
+        "paragraphThree": "In addition to my development experience, I am a Technology Instructor with a background in teaching web development and other IT-related subjects, covering everything from fundamental concepts to industry best practices.",
+        "paragraphFour": "I have experience delivering both in-person and online classes, as well as creating technology courses and educational content focused on software development and professional soft skills."
       }
     }
   }

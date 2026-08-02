@@ -1,13 +1,19 @@
 import { useTranslation } from "react-i18next";
-import profileImg from "../assets/profile_pic.png";
+import profileImg from "../assets/images/profile_pic.png";
+import { menus } from "../helpers/menu";
+import { ZERO } from "../constants/numbers";
 
 const TRANSLATION_BASE = "pages.home";
+const HOME_MENU_SECTION_ID = menus[ZERO].sectionId;
 
 const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex mt-30 justify-between">
+    <section
+      id={HOME_MENU_SECTION_ID}
+      className="flex pt-30 pb-20 justify-between"
+    >
       <div className="pt-20">
         <h1 className="text-primary text-7xl w-80 font-medium">
           {t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
@@ -40,7 +46,7 @@ const Home = () => {
         src={profileImg}
         alt={t(`${TRANSLATION_BASE}.imgDescription`)}
       />
-    </div>
+    </section>
   );
 };
 
