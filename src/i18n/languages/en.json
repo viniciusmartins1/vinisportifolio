@@ -13,6 +13,15 @@
           "contact": "Contact"
         }
       }
+    },
+    "pages": {
+      "home": {
+        "title": "Vinicius Martins",
+        "subtitle": "Front-End Developer / I.T Instructor",
+        "description": "An Software Engineering Specialist passionate about sharing knowledge ",
+        "getInTouch": "Get in Touch",
+        "imgDescription": "An photo of my self in a Gibby style with a pink gratient background"
+      }
     }
   }
 }
