@@ -1,9 +1,9 @@
-type Skill = {
+interface ISkill {
   title: string;
   list: string[];
-};
+}
 
-export const skillList: Skill[] = [
+export const skillList: ISkill[] = [
   {
     title: "pages.skills.frontEnd",
     list: [
@@ -26,7 +26,14 @@ export const skillList: Skill[] = [
   },
   {
     title: "pages.skills.testingAndQA",
-    list: ["Node.js", "C#", "MVC Pattern", "Database", "SQL", "APIs REST"],
+    list: [
+      "React Testing Library",
+      "SonarQube",
+      "Jest",
+      "Jasmine",
+      "Karma",
+      "Unit Test",
+    ],
   },
   {
     title: "pages.skills.devOpsAndVersion",

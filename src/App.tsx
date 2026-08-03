@@ -1,6 +1,7 @@
 // import { useTranslation } from "react-i18next";
 // import { i18nLanguages } from "./i18n";
 import Header from "./components/Header";
+import Technologies from "./components/Technologies";
 import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
@@ -15,6 +16,7 @@ function App() {
         <Home />
         <AboutMe />
         <Skills />
+        <Technologies />
         {/* <h2 className="text-3xl font-bold underline">{t("helloWorld")}</h2>
         {i18nLanguages.map(({ lng }) => (
           <button onClick={() => i18n.changeLanguage(lng)}>{lng}</button>

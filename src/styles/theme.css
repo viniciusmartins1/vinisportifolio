@@ -10,4 +10,39 @@
   --color-orange: #69c9d0;
   --color-white: #f8f8f8;
   --color-black: #000;
+
+  --animate-floating-icons-right: floatingIconsRight 90s linear infinite;
+  --animate-floating-icons-left: floatingIconsLeft 90s linear infinite;
+  --animate-rotate-icon: rotateIcon 20s ease-in-out infinite;
+
+  @keyframes floatingIconsRight {
+    from {
+      transform: translateX(-50%);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes floatingIconsLeft {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes rotateIcon {
+    0%,
+    100% {
+      transform: rotate(-5deg);
+    }
+
+    50% {
+      transform: rotate(5deg);
+    }
+  }
 }

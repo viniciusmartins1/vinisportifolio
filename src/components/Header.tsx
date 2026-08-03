@@ -26,6 +26,7 @@ const Header = () => {
             <li>
               <a
                 className={`
+                  text-lg
                   cursor-pointer  
                   transition 
                   delay-150 
