@@ -11,11 +11,21 @@ const Title = ({ title, borderWidth, textAlign }: TitleProps) => {
     <div className="w-full relative">
       <h1 className={`text-3xl ${isAlignRight && "text-right"}`}>{title}</h1>
       <div
-        className={`
-          w-${borderWidth} 
+        style={
+          !isAlignRight
+            ? {
+                width: borderWidth,
+              }
+            : {
+                width: borderWidth,
+                position: "absolute",
+                bottom: 0,
+                right: 0,
+              }
+        }
+        className={` 
           rounded-4xl h-[0.5px]  
           bg-[linear-gradient(to_right,white_0%,white_10%,var(--color-primary)_35%,var(--color-primary)_100%)] 
-          absolute -bottom-1 ${isAlignRight ? "right-0" : "left-0"}
         `}
       ></div>
     </div>
