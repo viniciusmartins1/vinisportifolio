@@ -3,6 +3,7 @@
 import Header from "./components/Header";
 import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
+import Skills from "./pages/Skills";
 
 function App() {
   // const { t, i18n } = useTranslation();
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Home />
         <AboutMe />
+        <Skills />
         {/* <h2 className="text-3xl font-bold underline">{t("helloWorld")}</h2>
         {i18nLanguages.map(({ lng }) => (
           <button onClick={() => i18n.changeLanguage(lng)}>{lng}</button>

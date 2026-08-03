@@ -12,17 +12,17 @@ const AboutMe = () => {
   const { t } = useTranslation();
 
   return (
-    <section id={ABOUT_HOME_SECTION_ID} className="pt-32">
+    <section id={ABOUT_HOME_SECTION_ID} className="pt-24">
       <div className="flex justify-between content-center">
         <img
           src={profileImg}
           alt={t(`${TRANSLATION_BASE}.imgDescription`)}
-          className="w-120 pt-25"
+          className="w-130 pt-25"
         />
         <div className="flex flex-col w-155">
           <Title
             title={t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
-            borderWidth={50}
+            borderWidth={170}
             textAlign="left"
           />
 

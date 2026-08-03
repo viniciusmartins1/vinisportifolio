@@ -29,6 +29,15 @@
         "paragraphTwo": "I have contributed to projects focused on responsive design, performance optimization, and scalable UI architecture. I also have experience with automated testing, version control, CI/CD pipelines, and DevOps practices, helping ensure code quality and reliable deployments.",
         "paragraphThree": "In addition to my development experience, I am a Technology Instructor with a background in teaching web development and other IT-related subjects, covering everything from fundamental concepts to industry best practices.",
         "paragraphFour": "I have experience delivering both in-person and online classes, as well as creating technology courses and educational content focused on software development and professional soft skills."
+      },
+      "skills": {
+        "title": "Skills",
+        "frontEnd": "Front-End",
+        "backEnd": "Back-End",
+        "testingAndQA": "Testing and QA",
+        "devOpsAndVersion": "DevOps and Version Control",
+        "agileMethodologies": "Agile Methodologies",
+        "tools": "Tools"
       }
     }
   }
