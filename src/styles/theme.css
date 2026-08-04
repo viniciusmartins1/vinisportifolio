@@ -7,13 +7,15 @@
   --color-primary-hover: #cf7f02;
   --color-primary-dark: #6d4301;
   --color-pink: #ff357f;
-  --color-orange: #69c9d0;
+  --color-blue: #69c9d0;
   --color-white: #f8f8f8;
   --color-black: #000;
 
   --animate-floating-icons-right: floatingIconsRight 90s linear infinite;
   --animate-floating-icons-left: floatingIconsLeft 90s linear infinite;
   --animate-rotate-icon: rotateIcon 20s ease-in-out infinite;
+
+  --career-background: url("../assets/images/career_background.png");
 
   @keyframes floatingIconsRight {
     from {

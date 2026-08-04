@@ -1,6 +1,6 @@
 type TitleProps = {
   title: string;
-  borderWidth: number;
+  borderWidth: string;
   textAlign: "left" | "right";
 };
 

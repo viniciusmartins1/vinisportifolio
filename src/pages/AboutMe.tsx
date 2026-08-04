@@ -22,15 +22,87 @@ const AboutMe = () => {
         <div className="flex flex-col w-155">
           <Title
             title={t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
-            borderWidth={170}
+            borderWidth={"30%"}
             textAlign="left"
           />
 
           <div className="flex flex-col gap-5.5 mt-20 text-justify text-lg">
-            <p>{t(`${TRANSLATION_BASE}.paragraphOne`)}</p>
-            <p>{t(`${TRANSLATION_BASE}.paragraphTwo`)}</p>
-            <p>{t(`${TRANSLATION_BASE}.paragraphThree`)}</p>
-            <p>{t(`${TRANSLATION_BASE}.paragraphFour`)}</p>
+            <p className="text-justify leading-8">
+              {t(`${TRANSLATION_BASE}.paragraphOne`)
+                .split(" ")
+                .map((word, index) => {
+                  return (
+                    <span
+                      key={index}
+                      className="
+                      transition-all
+                      duration-300
+                      hover:text-primary
+                      hover:font-bold
+                    "
+                    >
+                      {word}{" "}
+                    </span>
+                  );
+                })}
+            </p>
+            <p>
+              {t(`${TRANSLATION_BASE}.paragraphTwo`)
+                .split(" ")
+                .map((word, index) => {
+                  return (
+                    <span
+                      key={index}
+                      className="
+                      transition-all
+                      duration-300
+                      hover:text-pink
+                      hover:font-bold
+                    "
+                    >
+                      {word}{" "}
+                    </span>
+                  );
+                })}
+            </p>
+            <p>
+              {t(`${TRANSLATION_BASE}.paragraphThree`)
+                .split(" ")
+                .map((word, index) => {
+                  return (
+                    <span
+                      key={index}
+                      className="
+                      transition-all
+                      duration-300
+                      hover:text-blue
+                      hover:font-bold
+                    "
+                    >
+                      {word}{" "}
+                    </span>
+                  );
+                })}
+            </p>
+            <p>
+              {t(`${TRANSLATION_BASE}.paragraphFour`)
+                .split(" ")
+                .map((word, index) => {
+                  return (
+                    <span
+                      key={index}
+                      className="
+                      transition-all
+                      duration-400
+                      hover:text-primary
+                      hover:font-bold
+                    "
+                    >
+                      {word}{" "}
+                    </span>
+                  );
+                })}
+            </p>
           </div>
         </div>
       </div>

@@ -38,6 +38,22 @@
         "devOpsAndVersion": "DevOps and Version Control",
         "agileMethodologies": "Agile Methodologies",
         "tools": "Tools"
+      },
+      "career": {
+        "title": "Work and education experience",
+        "roles": {
+          "itInstructor": "I.T Instructor",
+          "midFrontEnd": "Mid Front-End Developer",
+          "devFrontEnd": "Front-End Developer",
+          "internFrontEnd": "Front-End Developer Intern"
+        },
+        "education": {
+          "graduation": "Degree in Analysis and Software Development",
+          "postGraduate": "Postgraduate in Software Enginieering",
+          "italoUniversity": "Ítalo Brasileiro University Center",
+          "anhangueraUniversity": "Anhanguera University"
+        },
+        "present": "Present"
       }
     }
   }
