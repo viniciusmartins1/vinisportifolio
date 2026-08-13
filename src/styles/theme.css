@@ -5,9 +5,11 @@
 
   --color-primary: #f29502;
   --color-primary-hover: #cf7f02;
-  --color-primary-dark: #6d4301;
+  --color-primary-dark: rgb(242, 149, 2, 0.5);
   --color-pink: #ff357f;
+  --color-pink-dark: rgba(255, 53, 127, 0.5);
   --color-blue: #69c9d0;
+  --color-blue-dark: rgb(105, 201, 208, 0.5);
   --color-white: #f8f8f8;
   --color-black: #000;
 

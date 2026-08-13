@@ -30,9 +30,7 @@ const Skills = () => {
                 }
               >
                 {list.map((item) => {
-                  return (
-                    <Badge text={item} backgroundColor="--color-primary-dark" />
-                  );
+                  return <Badge text={item} />;
                 })}
               </div>
             </div>
