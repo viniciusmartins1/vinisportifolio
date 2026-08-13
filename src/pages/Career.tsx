@@ -13,25 +13,25 @@ const Career = () => {
   const { t } = useTranslation();
 
   return (
-    <section id={CAREER_MENU_SECTION_ID} className="py-24">
+    <section id={CAREER_MENU_SECTION_ID} className="pt-14">
       <Title
         title={t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
         textAlign="right"
       />
       <div
         className="mt-14 bg-center bg-repeat-y bg-size-[80%]   
-        mask-[linear-gradient(to_bottom,transparent,black_15%,black_85%,transparent)]
-        [-webkit-mask-image:linear-gradient(to_bottom,transparent,black_15%,black_85%,transparent)]"
+        mask-[linear-gradient(to_bottom,transparent,black_5%,black_85%,transparent)]
+        [-webkit-mask-image:linear-gradient(to_bottom,transparent,black_5%,black_85%,transparent)]"
         style={{
           backgroundImage: `
           linear-gradient(
-        rgba(0,0,0,.2),
-        rgba(0,0,0,.2)
+        rgba(0,0,0,.1),
+        rgba(0,0,0,.1)
           ),
           url(${careerBackground})`,
         }}
       >
-        <div className="pb-48 pt-16">
+        <div className="pb-44 pt-16">
           {careerTimeLine.map((item, index) => {
             return (
               <TimeLineItem
