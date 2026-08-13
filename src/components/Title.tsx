@@ -1,33 +1,35 @@
 type TitleProps = {
   title: string;
-  borderWidth: string;
   textAlign: "left" | "right";
 };
 
-const Title = ({ title, borderWidth, textAlign }: TitleProps) => {
+const Title = ({ title, textAlign }: TitleProps) => {
   const isAlignRight = textAlign === "right";
 
   return (
-    <div className="w-full relative">
-      <h1 className={`text-3xl ${isAlignRight && "text-right"}`}>{title}</h1>
-      <div
-        style={
-          !isAlignRight
-            ? {
-                width: borderWidth,
-              }
-            : {
-                width: borderWidth,
-                position: "absolute",
-                bottom: 0,
-                right: 0,
-              }
-        }
-        className={` 
-          rounded-4xl h-[0.5px]  
-          bg-[linear-gradient(to_right,white_0%,white_10%,var(--color-primary)_35%,var(--color-primary)_100%)] 
-        `}
-      ></div>
+    <div
+      className="w-full flex"
+      style={{
+        justifyContent: isAlignRight ? "end" : "start",
+        textAlign: isAlignRight ? "left" : "right",
+      }}
+    >
+      <div className="w-fit">
+        <h1 className="text-3xl">{title}</h1>
+
+        <div
+          className={`
+            w-[130%]
+            rounded-full
+          `}
+          style={{
+            borderBottom: "0.5px solid",
+            borderImage:
+              "linear-gradient(to right, white 0%, white 10%, var(--color-primary) 35%, var(--color-primary) 100%) 1",
+            marginLeft: isAlignRight ? "-30%" : "0px",
+          }}
+        />
+      </div>
     </div>
   );
 };

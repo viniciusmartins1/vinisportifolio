@@ -22,7 +22,6 @@ const AboutMe = () => {
         <div className="flex flex-col w-155">
           <Title
             title={t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
-            borderWidth={"30%"}
             textAlign="left"
           />
 

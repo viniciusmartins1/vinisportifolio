@@ -16,7 +16,6 @@ const Skills = () => {
       <Title
         title={t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
         textAlign="left"
-        borderWidth={"10%"}
       />
 
       <div className="flex gap-y-5 flex-wrap justify-between content-end mt-20">

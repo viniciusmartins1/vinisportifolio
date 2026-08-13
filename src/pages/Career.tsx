@@ -16,7 +16,6 @@ const Career = () => {
     <section id={CAREER_MENU_SECTION_ID} className="py-24">
       <Title
         title={t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
-        borderWidth={"45%"}
         textAlign="right"
       />
       <div
