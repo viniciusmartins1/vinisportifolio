@@ -54,6 +54,46 @@
           "anhangueraUniversity": "Anhanguera University"
         },
         "present": "Present"
+      },
+      "projects": {
+        "code": {
+          "title": "Code Projects",
+          "projects": {
+            "coffeDeliveryDescription": "Application to manage a shopping cart for a fictional coffee shop.",
+            "igniteShopDescription": "The application aims to simulate a T-shirt sales app using Next.js.",
+            "githubBlogDescription": "The application aims to display the issues of a specific repository, as well as some profile data of a GitHub user."
+          }
+        },
+        "educational": {
+          "title": "Educational and Academic Projects",
+          "projects": {
+            "bookTitle": "Prompt Engineering",
+            "bookDescription": "Contribution to an article on Prompt Engineering for the book *Tecnologias do Amanhã* (Technologies of Tomorrow).",
+            "article": "Article",
+            "book": "Book",
+            "channelDescription": "YouTube channel for sharing knowledge and personal experiences in the IT field.",
+            "community": "Community",
+            "instructorTitle": "Soft=Skills Instructor",
+            "instructorDescription": "Delivering online classes on soft skills and the job market for the social project Escola da Nuvem.",
+            "volunteering": "Volunteering"
+          }
+        },
+        "international": {
+          "title": "International Projects",
+          "projects": {
+            "exchangeTitle": "English Exchange",
+            "exchangeDescription": "Cultural and educational exchange in New Zealand to improve my English language skills.",
+            "gardeningTitle": "Gardening Volunteering",
+            "gardeningDescription": "Volunteering involving gardening, painting, repair, and planting activities, combined with environmental awareness.",
+            "housekeepingTitle": "Housekeeping Volunteering",
+            "housekeepingDescription": "Volunteering as a housekeeper at a hostel with a group of caregivers, where we shared tasks, experiences, and conversations.",
+            "course": "Course",
+            "languages": "Languages",
+            "dailyEnglish": "Daily English",
+            "environment": "Environment",
+            "volunteering": "Volunteering"
+          }
+        }
       }
     }
   }
