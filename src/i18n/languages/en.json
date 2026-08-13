@@ -59,9 +59,18 @@
         "code": {
           "title": "Code Projects",
           "projects": {
-            "coffeDeliveryDescription": "Application to manage a shopping cart for a fictional coffee shop.",
-            "igniteShopDescription": "The application aims to simulate a T-shirt sales app using Next.js.",
-            "githubBlogDescription": "The application aims to display the issues of a specific repository, as well as some profile data of a GitHub user."
+            "coffeDeliveryTitle": "Coffe Delivery",
+            "coffeDeliveryDescription": "Application to manage a shopping cart for a fictional coffee shop. For this project, I only needed to code the design and develop the functionality.",
+            "igniteShopTitle": "Ignite Shop",
+            "igniteShopDescription": "The application aims to simulate a T-shirt sales app using Next.js. There is an integration with Stripe that handles the payment process.",
+            "githubBlogTitle": "GitHub Blog",
+            "githubBlogDescription": "The application aims to display the issues of a specific repository, as well as some profile data of a GitHub user.",
+            "react": "React",
+            "typescript": "TypeScript",
+            "nextjs": "Next.js",
+            "ssr": "SSR",
+            "reactRouter": "React Router DOM",
+            "api": "API"
           }
         },
         "educational": {
@@ -71,27 +80,33 @@
             "bookDescription": "Contribution to an article on Prompt Engineering for the book *Tecnologias do Amanhã* (Technologies of Tomorrow).",
             "article": "Article",
             "book": "Book",
-            "channelDescription": "YouTube channel for sharing knowledge and personal experiences in the IT field.",
+            "channelTitle": "Twins Tech",
+            "channelDescription": "YouTube channel for sharing knowledge and personal experiences in the IT field mainly with new students.",
             "community": "Community",
-            "instructorTitle": "Soft=Skills Instructor",
+            "instructorTitle": "Soft-Skills Instructor",
             "instructorDescription": "Delivering online classes on soft skills and the job market for the social project Escola da Nuvem.",
-            "volunteering": "Volunteering"
+            "volunteering": "Volunteering",
+            "youtube": "YouTube",
+            "softskills": "Soft-Skills"
           }
         },
         "international": {
           "title": "International Projects",
           "projects": {
             "exchangeTitle": "English Exchange",
-            "exchangeDescription": "Cultural and educational exchange in New Zealand to improve my English language skills.",
+            "exchangeDescription": "Cultural and educational exchange in New Zealand to improve my English language skills. I stayed in New Zealand for nine months.",
             "gardeningTitle": "Gardening Volunteering",
             "gardeningDescription": "Volunteering involving gardening, painting, repair, and planting activities, combined with environmental awareness.",
             "housekeepingTitle": "Housekeeping Volunteering",
-            "housekeepingDescription": "Volunteering as a housekeeper at a hostel with a group of caregivers, where we shared tasks, experiences, and conversations.",
+            "housekeepingDescription": "Volunteering as a housekeeper at a hostel where we shared tasks, experiences, and conversations.",
             "course": "Course",
             "languages": "Languages",
             "dailyEnglish": "Daily English",
             "environment": "Environment",
-            "volunteering": "Volunteering"
+            "volunteering": "Volunteering",
+            "auckland": "Auckland",
+            "hawkesBay": "Hawke's Bay",
+            "queenstown": "Queenstown"
           }
         }
       }

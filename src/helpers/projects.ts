@@ -1,14 +1,14 @@
 import codeCoffeDelivery from "../assets/images/projects/coder_coffee_delivery.png";
 import codeIgniteShop from "../assets/images/projects/coder_ignite_shop.png";
 import codeGithubBlog from "../assets/images/projects/coder_github_blog.png";
-import educationalBook from "../assets/images/projects/coder_coffee_delivery.png";
-import educationalInstructor from "../assets/images/projects/coder_ignite_shop.png";
-import educationalYoutube from "../assets/images/projects/coder_github_blog.png";
-import internationalCourse from "../assets/images/projects/coder_coffee_delivery.png";
-import internationalGardening from "../assets/images/projects/coder_ignite_shop.png";
-import internationalHouseKeeping from "../assets/images/projects/coder_github_blog.png";
+import educationalBook from "../assets/images/projects/educational_book.png";
+import educationalInstructor from "../assets/images/projects/educational_instructor.png";
+import educationalYoutube from "../assets/images/projects/educational_youtube.png";
+import internationalCourse from "../assets/images/projects/international_course.jpg";
+import internationalGardening from "../assets/images/projects/international_garding.png";
+import internationalHouseKeeping from "../assets/images/projects/international_housekeeping.jpg";
 
-interface IProject {
+export interface IProject {
   title: string;
   description: string;
   image: string;
@@ -25,24 +25,32 @@ interface IProjectList {
 
 const code: IProject[] = [
   {
-    title: "Coffee Delivery",
+    title: "code.projects.coffeDeliveryTitle",
     description: "code.projects.coffeDeliveryDescription",
     image: codeCoffeDelivery,
-    badges: ["React", "Typescript"],
+    badges: ["code.projects.react", "code.projects.typescript"],
     link: "https://github.com/viniciusmartins1/react-coffee-delivery",
   },
   {
-    title: "Ignite Shop",
+    title: "code.projects.igniteShopTitle",
     description: "code.projects.igniteShopDescription",
     image: codeIgniteShop,
-    badges: ["Next.js", "SSR", "Typescript"],
+    badges: [
+      "code.projects.nextjs",
+      "code.projects.ssr",
+      "code.projects.typescript",
+    ],
     link: "https://github.com/viniciusmartins1/ignite-shop",
   },
   {
-    title: "GitHub Blog",
+    title: "code.projects.githubBlogTitle",
     description: "code.projects.githubBlogDescription",
     image: codeGithubBlog,
-    badges: ["React Router DOM", "API", "Typescript"],
+    badges: [
+      "code.projects.reactRouter",
+      "code.projects.api",
+      "code.projects.typescript",
+    ],
     link: "https://github.com/viniciusmartins1/github-blog",
   },
 ];
@@ -56,17 +64,20 @@ const educational: IProject[] = [
     link: "https://publicacoes.even3.com.br/book/tecnologias-do-amanha-3242575",
   },
   {
-    title: "Twins Tech",
+    title: "educational.projects.channelTitle",
     description: "educational.projects.channelDescription",
     image: educationalYoutube,
-    badges: ["educational.projects.community", "Youtube"],
+    badges: ["educational.projects.community", "educational.projects.youtube"],
     link: "https://www.youtube.com/@twins_tech",
   },
   {
     title: "educational.projects.instructorTitle",
     description: "educational.projects.instructorDescription",
     image: educationalInstructor,
-    badges: ["educational.projects.volunteering", "Soft-Skills"],
+    badges: [
+      "educational.projects.volunteering",
+      "educational.projects.softskills",
+    ],
     link: "https://escoladanuvem.org",
   },
 ];
@@ -79,9 +90,9 @@ const international: IProject[] = [
     badges: [
       "international.projects.course",
       "international.projects.languages",
-      "Auckland",
+      "international.projects.auckland",
     ],
-    link: "hhttps://seafield.ac.nz/",
+    link: "https://seafield.ac.nz/",
   },
   {
     title: "international.projects.gardeningTitle",
@@ -90,7 +101,7 @@ const international: IProject[] = [
     badges: [
       "international.projects.dailyEnglish",
       "international.projects.environment",
-      "Hawke's Bay",
+      "international.projects.hawkesBay",
     ],
     link: "https://www.thecoachhousegardenrooms.co.nz",
   },
@@ -101,7 +112,7 @@ const international: IProject[] = [
     badges: [
       "international.projects.dailyEnglish",
       "international.projects.languages",
-      "Queenstown",
+      "international.projects.queenstown",
     ],
     link: "https://www.hippolodge.co.nz",
   },
@@ -111,13 +122,13 @@ export const projects: IProjectList[] = [
   {
     title: "code.title",
     titlePosition: "left",
-    primaryColor: "--color-primary",
+    primaryColor: "--color-pink",
     projects: code,
   },
   {
     title: "educational.title",
     titlePosition: "right",
-    primaryColor: "--color-pink",
+    primaryColor: "--color-primary",
     projects: educational,
   },
   {
