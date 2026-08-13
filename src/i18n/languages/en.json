@@ -109,6 +109,16 @@
             "queenstown": "Queenstown"
           }
         }
+      },
+      "contact": {
+        "title": "Get in Touch",
+        "description": "Feel free to contact me if you would like to know more about my work or simply chat about opportunities and projects. Thanks for visiting.",
+        "altLinkedIn": "Link of my profile on LinkedIn",
+        "altGitHub": "Link of my profile on GitHub",
+        "altYoutube": "Link of my channel on Youtube"
+      },
+      "footer": {
+        "title": "< made by vinicius />"
       }
     }
   }

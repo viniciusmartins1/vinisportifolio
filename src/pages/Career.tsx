@@ -25,8 +25,8 @@ const Career = () => {
         style={{
           backgroundImage: `
           linear-gradient(
-        rgba(0,0,0,.1),
-        rgba(0,0,0,.1)
+        rgba(0,0,0,.4),
+        rgba(0,0,0,.4)
           ),
           url(${careerBackground})`,
         }}
