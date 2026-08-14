@@ -18,6 +18,7 @@ const Projects = () => {
       className="
         pb-15 pt-2 bg-size-[40%]  
         flex flex-col gap-28 
+        scroll-mt-30
         mask-[linear-gradient(to_bottom,transparent,black_1%,black_85%,transparent)]
         [-webkit-mask-image:linear-gradient(to_bottom,transparent,black_1%,black_85%,transparent)]
       "

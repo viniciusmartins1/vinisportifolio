@@ -12,7 +12,7 @@ const Skills = () => {
   const { t } = useTranslation();
 
   return (
-    <section id={SKILLS_MENU_SECTION_ID} className="py-32">
+    <section id={SKILLS_MENU_SECTION_ID} className="py-32 scroll-mt-10">
       <Title
         title={t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
         textAlign="left"

@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <section
       id={CONTACT_MENU_SECTION_ID}
-      className="flex flex-col gap-12 pb-64 mb-32 bg-no-repeat bg-right bg-size-[75%]"
+      className="flex flex-col gap-12 pb-64 mb-32 bg-no-repeat bg-right bg-size-[75%] scroll-mt-30"
       style={{
         backgroundImage: `
           linear-gradient(

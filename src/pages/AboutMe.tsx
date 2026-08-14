@@ -12,7 +12,7 @@ const AboutMe = () => {
   const { t } = useTranslation();
 
   return (
-    <section id={ABOUT_HOME_SECTION_ID} className="pt-24">
+    <section id={ABOUT_HOME_SECTION_ID} className="pt-24 scroll-mt-10">
       <div className="flex justify-between content-center">
         <img
           src={profileImg}
