@@ -22,7 +22,8 @@ const Skills = () => {
         {skillList.map(({ list, title }) => {
           return (
             <div>
-              <p className="text-lg my-4.5">{t(title)}</p>
+              <p className="text-lg my-4.5 hover-underline">{t(title)}</p>
+
               <div
                 className="flex gap-x-2 gap-y-3.5 flex-wrap w-90"
                 style={
@@ -30,7 +31,7 @@ const Skills = () => {
                 }
               >
                 {list.map((item) => {
-                  return <Badge text={item} />;
+                  return <Badge text={item} isRounded={false} />;
                 })}
               </div>
             </div>
