@@ -3,6 +3,7 @@ import profileImg from "../assets/images/profile_pic.png";
 import { menus } from "../helpers/menu";
 import { FIVE, ONE, ZERO } from "../constants/numbers";
 import { useEffect, useState } from "react";
+import { typeWritingAnimation } from "../helpers/animations";
 
 const TRANSLATION_BASE = "pages.home";
 const HOME_MENU_SECTION_ID = menus[ZERO].sectionId;
@@ -13,17 +14,10 @@ const Home = () => {
   const [displayText, setDisplayText] = useState("");
 
   useEffect(() => {
-    const text = t(`${TRANSLATION_BASE}.subtitle`).toLocaleLowerCase();
-    let index = ZERO;
-
-    const interval = setInterval(() => {
-      setDisplayText(text.slice(ZERO, index + ONE));
-      index++;
-
-      if (index === text.length) {
-        clearInterval(interval);
-      }
-    }, 100);
+    const interval = typeWritingAnimation(
+      t(`${TRANSLATION_BASE}.subtitle`).toLocaleLowerCase(),
+      (text, index) => setDisplayText(text.slice(ZERO, index + ONE)),
+    );
 
     return () => clearInterval(interval);
   }, [t]);
