@@ -4,6 +4,7 @@ import { menus, startSectionObserver } from "../helpers/menu";
 import { ZERO } from "../constants/numbers";
 
 import logo from "../assets/svgs/logo.svg";
+import TranslationButton from "./TranslationButton";
 
 const HOME_MENU = menus[ZERO];
 
@@ -43,13 +44,14 @@ const Header = () => {
         />
       </a>
 
-      <nav className="hidden lg:block">
-        <ul className="flex gap-8 content-center flex-wrap text-2xl menu-hover">
-          {menus.map(({ menu, sectionId, link }) => {
-            return (
-              <li key={sectionId}>
-                <a
-                  className={`
+      <div className="flex gap-5 justify-center align-middle">
+        <nav className="hidden lg:block">
+          <ul className="flex gap-8 content-center flex-wrap text-2xl menu-hover">
+            {menus.map(({ menu, sectionId, link }) => {
+              return (
+                <li key={sectionId}>
+                  <a
+                    className={`
                     text-lg
                     cursor-pointer
                     transition
@@ -62,15 +64,18 @@ const Header = () => {
                     animate-fade-up
                     [animation-delay:150ms]
                   `}
-                  href={link}
-                >
-                  {t(`components.header.menu.${menu}`).toLocaleLowerCase()}
-                </a>
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
+                    href={link}
+                  >
+                    {t(`components.header.menu.${menu}`).toLocaleLowerCase()}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+
+        <TranslationButton />
+      </div>
     </header>
   );
 };

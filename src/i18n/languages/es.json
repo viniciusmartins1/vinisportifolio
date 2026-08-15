@@ -1,5 +1,125 @@
 {
   "translation": {
-    "helloWorld": "Hola Mundo"
+    "helloWorld": "Hola, Mundo",
+    "components": {
+      "header": {
+        "logo": "logo con mi apodo 'vini' rodeado por llaves de código",
+        "menu": {
+          "home": "Inicio",
+          "about": "Sobre mí",
+          "skills": "Habilidades",
+          "career": "Experiencia",
+          "projects": "Proyectos",
+          "contact": "Contacto"
+        }
+      }
+    },
+    "pages": {
+      "home": {
+        "title": "Vinicius Martins",
+        "subtitle": "Desarrollador Front-End / Instructor de T.I.",
+        "description": "Especialista en Ingeniería de Software apasionado por compartir conocimientos",
+        "getInTouch": "Contáctame",
+        "imgDescription": "Una foto mía al estilo Gibby con un fondo degradado rosa"
+      },
+      "aboutMe": {
+        "title": "Sobre mí",
+        "imgDescription": "Una foto mía con dos sombras de la misma imagen, una roja y otra azul",
+        "paragraphOne": "Mi nombre es Vinicius y soy Desarrollador Front-End con más de cuatro años de experiencia práctica desarrollando, manteniendo y dando soporte a aplicaciones web utilizando tecnologías como React, Angular, TypeScript y JavaScript.",
+        "paragraphTwo": "He contribuido a proyectos enfocados en diseño responsivo, optimización del rendimiento y arquitectura de interfaces escalables. También tengo experiencia con pruebas automatizadas, control de versiones, pipelines de CI/CD y prácticas de DevOps, ayudando a garantizar la calidad del código y despliegues confiables.",
+        "paragraphThree": "Además de mi experiencia como desarrollador, soy Instructor de Tecnología, con experiencia enseñando desarrollo web y otras áreas relacionadas con las T.I., abarcando desde conceptos fundamentales hasta buenas prácticas de la industria.",
+        "paragraphFour": "Tengo experiencia impartiendo clases presenciales y en línea, además de crear cursos de tecnología y contenido educativo enfocado en desarrollo de software y habilidades profesionales."
+      },
+      "skills": {
+        "title": "Habilidades",
+        "frontEnd": "Front-End",
+        "backEnd": "Back-End",
+        "testingAndQA": "Pruebas y QA",
+        "devOpsAndVersion": "DevOps y Control de Versiones",
+        "agileMethodologies": "Metodologías Ágiles",
+        "tools": "Herramientas"
+      },
+      "career": {
+        "title": "Experiencia laboral y formación académica",
+        "roles": {
+          "itInstructor": "Instructor de T.I.",
+          "midFrontEnd": "Desarrollador Front-End Semi Senior",
+          "devFrontEnd": "Desarrollador Front-End",
+          "internFrontEnd": "Pasante de Desarrollo Front-End"
+        },
+        "education": {
+          "graduation": "Tecnólogo en Análisis y Desarrollo de Sistemas",
+          "postGraduate": "Posgrado en Ingeniería de Software",
+          "italoUniversity": "Centro Universitario Ítalo Brasileiro",
+          "anhangueraUniversity": "Universidad Anhanguera"
+        },
+        "present": "Actualidad"
+      },
+      "projects": {
+        "code": {
+          "title": "Proyectos de Código",
+          "projects": {
+            "coffeDeliveryTitle": "Coffee Delivery",
+            "coffeDeliveryDescription": "Aplicación para gestionar un carrito de compras de una cafetería ficticia. En este proyecto, me encargué de desarrollar el diseño y las funcionalidades.",
+            "igniteShopTitle": "Ignite Shop",
+            "igniteShopDescription": "La aplicación simula una tienda de camisetas utilizando Next.js. Cuenta con una integración con Stripe que gestiona el proceso de pago.",
+            "githubBlogTitle": "GitHub Blog",
+            "githubBlogDescription": "La aplicación muestra las issues de un repositorio específico, además de algunos datos del perfil de un usuario de GitHub.",
+            "react": "React",
+            "typescript": "TypeScript",
+            "nextjs": "Next.js",
+            "ssr": "SSR",
+            "reactRouter": "React Router DOM",
+            "api": "API"
+          }
+        },
+        "educational": {
+          "title": "Proyectos Educativos y Académicos",
+          "projects": {
+            "bookTitle": "Ingeniería de Prompts",
+            "bookDescription": "Contribución a un artículo sobre Ingeniería de Prompts para el libro *Tecnologias do Amanhã* (Tecnologías del Mañana).",
+            "article": "Artículo",
+            "book": "Libro",
+            "channelTitle": "Twins Tech",
+            "channelDescription": "Canal de YouTube dedicado a compartir conocimientos y experiencias personales en el área de T.I., principalmente con nuevos estudiantes.",
+            "community": "Comunidad",
+            "instructorTitle": "Instructor de Soft Skills",
+            "instructorDescription": "Impartición de clases en línea sobre soft skills y mercado laboral para el proyecto social Escola da Nuvem.",
+            "volunteering": "Voluntariado",
+            "youtube": "YouTube",
+            "softskills": "Soft Skills"
+          }
+        },
+        "international": {
+          "title": "Proyectos Internacionales",
+          "projects": {
+            "exchangeTitle": "Intercambio de Inglés",
+            "exchangeDescription": "Intercambio cultural y educativo en Nueva Zelanda para mejorar mis habilidades en el idioma inglés. Permanecí en Nueva Zelanda durante nueve meses.",
+            "gardeningTitle": "Voluntariado de Jardinería",
+            "gardeningDescription": "Voluntariado que involucró actividades de jardinería, pintura, reparaciones y plantación, combinadas con concienciación ambiental.",
+            "housekeepingTitle": "Voluntariado de Housekeeping",
+            "housekeepingDescription": "Voluntariado como encargado de limpieza en un hostel, donde compartíamos tareas, experiencias y conversaciones.",
+            "course": "Curso",
+            "languages": "Idiomas",
+            "dailyEnglish": "Inglés en el día a día",
+            "environment": "Medio ambiente",
+            "volunteering": "Voluntariado",
+            "auckland": "Auckland",
+            "hawkesBay": "Hawke's Bay",
+            "queenstown": "Queenstown"
+          }
+        }
+      },
+      "contact": {
+        "title": "Contáctame",
+        "description": "No dudes en contactarme si quieres saber más sobre mi trabajo o simplemente conversar sobre oportunidades y proyectos. Gracias por tu visita.",
+        "altLinkedIn": "Enlace a mi perfil de LinkedIn",
+        "altGitHub": "Enlace a mi perfil de GitHub",
+        "altYoutube": "Enlace a mi canal de YouTube"
+      },
+      "footer": {
+        "title": "< hecho por vinicius />"
+      }
+    }
   }
 }

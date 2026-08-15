@@ -15,23 +15,23 @@ export type Languages = (typeof Languages)[keyof typeof Languages];
 
 export interface ILanguages {
   lng: Languages;
-  flag: string;
+  label: string;
   translations: unknown;
 }
 
 const i18nLanguages: ILanguages[] = [
   {
-    flag: "",
+    label: "EN",
     lng: Languages.EN,
     translations: en,
   },
   {
-    flag: "",
+    label: "ES",
     lng: Languages.ES,
     translations: es,
   },
   {
-    flag: "",
+    label: "PT",
     lng: Languages.PT_BR,
     translations: ptBR,
   },
