@@ -16,7 +16,12 @@ const Contact = () => {
   return (
     <section
       id={CONTACT_MENU_SECTION_ID}
-      className="flex flex-col gap-12 pb-44 mb-32 bg-no-repeat bg-right bg-size-[75%] scroll-mt-30"
+      className="
+        flex flex-col gap-12 
+        -mt-80 lg:mt-0 lg:pb-44 mb-32 
+        bg-no-repeat bg-right bg-size-[75%] 
+        scroll-mt-30
+      "
       style={{
         backgroundImage: `
           linear-gradient(
@@ -26,10 +31,10 @@ const Contact = () => {
           url(${pageBackground})`,
       }}
     >
-      <h2 className="text-6xl text-white w-[18%] bg-clip-text  animate-shadow-dance">
+      <h2 className="text-5xl lg:text-6xl text-white  lg:w-[18%] bg-clip-text  animate-shadow-dance">
         {t(`${TRANSLATION_BASE}.title`).toLocaleUpperCase()}
       </h2>
-      <p className="w-[45%] text-justify">
+      <p className="lg:w-[45%] text-justify">
         {t(`${TRANSLATION_BASE}.description`)
           .split(" ")
           .map((word, index) => {

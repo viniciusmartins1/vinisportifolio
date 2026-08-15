@@ -5,7 +5,6 @@ type BadgeProps = {
   background?: keyof typeof backgroundClasses;
   hoverBackground?: keyof typeof hoverClasses;
   size?: "small" | "regular";
-  isRounded?: boolean;
 };
 
 const Badge = ({
@@ -13,18 +12,22 @@ const Badge = ({
   background = "primary-dark",
   size = "regular",
   hoverBackground = "primary",
-  isRounded = true,
 }: BadgeProps) => {
-  const sizeClass = size === "small" ? "text-xs" : "text-lg";
+  const sizeClass =
+    size === "small"
+      ? "text-xs rounded-4xl "
+      : "text-sm lg:text-lg rounded-[5.5px]";
 
   return (
     <button
-      style={{
-        padding: size === "small" ? "6px 6px" : "6px 14px",
-        minWidth: size === "small" ? "70px" : "80px",
-        borderRadius: isRounded ? "64px" : "",
-      }}
-      className={`${backgroundClasses[background]} ${hoverClasses[hoverBackground]} ${sizeClass} hover:font-bold hover:scale-95`}
+      className={`
+        ${backgroundClasses[background]} 
+        ${hoverClasses[hoverBackground]} 
+        ${sizeClass} 
+        px-3.5 py-1.5 
+        lg:min-w-20 
+        hover:font-bold 
+        hover:scale-95`}
     >
       {text}
     </button>

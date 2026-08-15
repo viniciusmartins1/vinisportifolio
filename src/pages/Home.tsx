@@ -31,17 +31,30 @@ const Home = () => {
   return (
     <section
       id={HOME_MENU_SECTION_ID}
-      className="flex pt-10 pb-20 justify-between scroll-mt-20"
+      className="
+        flex 
+        lg:pt-10 pb-20 
+        justify-between 
+        scroll-mt-20
+      "
     >
-      <div className="pt-20">
-        <h1 className="text-primary text-7xl w-80 font-medium  [animation-delay:200ms] animate-name-glow">
+      <div className="pt-5 lg:pt-20">
+        <h1
+          className="
+          text-primary 
+            text-6xl lg:text-7xl 
+            w-80 
+            font-medium 
+            [animation-delay:200ms] animate-name-glow
+          "
+        >
           {t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
         </h1>
-        <h3 className="mt-4.5 mb-1.5 text-3xl animate-fade-up">
+        <h3 className="mt-4.5 mb-1.5 text-2xl lg:text-3xl animate-fade-up">
           {displayText}
           <span className="ml-1 animate-pulse text-white border-r-[0.1px]"></span>
         </h3>
-        <p className="mb-2.5 text-lg animate-fade-up">
+        <p className="mb-2.5 text-xs lg:text-lg animate-fade-up">
           {t(`${TRANSLATION_BASE}.description`).toLocaleLowerCase()}
         </p>
 
@@ -49,10 +62,10 @@ const Home = () => {
           className="
           bg-primary 
           rounded-4xl 
-          px-6.5 py-2.5 
-          font-bold text-1xl 
+          px-4.5 lg:px-6.5  py-1.5 lg:py-2.5 
+          font-bold 
           mt-12 
-          text-lg 
+          text-sx lg:text-lg 
           cursor-pointer 
           hover:bg-primary-hover
           transition delay-100 duration-300 
@@ -64,7 +77,7 @@ const Home = () => {
         </button>
       </div>
       <img
-        className="w-120 animate-fade-up [animation-delay:300ms] hover:scale-110"
+        className="hidden lg:block w-120 animate-fade-up [animation-delay:300ms] hover:scale-110"
         src={profileImg}
         alt={t(`${TRANSLATION_BASE}.imgDescription`)}
       />

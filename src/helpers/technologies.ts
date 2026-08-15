@@ -21,103 +21,103 @@ import jest from "../assets/images/tools/jest_logo.png";
 interface ITechnologies {
   src: string;
   name: string;
-  size: number;
+  widthClass: string;
 }
 
 export const technologiesList: ITechnologies[] = [
   {
     src: react,
     name: "React",
-    size: 160,
+    widthClass: "w-[120px] lg:w-[160px]",
   },
   {
     src: angular,
     name: "Angular",
-    size: 100,
+    widthClass: "w-[80px] lg:w-[100px]",
   },
   {
     src: css,
     name: "CSS",
-    size: 150,
+    widthClass: "w-[110px] lg:w-[150px]",
   },
   {
     src: jenkins,
     name: "Jenkins",
-    size: 80,
+    widthClass: "w-[60px] lg:w-[80px]",
   },
   {
     src: figma,
     name: "Figma",
-    size: 120,
+    widthClass: "w-[90px] lg:w-[120px]",
   },
   {
     src: git,
     name: "Git",
-    size: 86,
+    widthClass: "w-[66px] lg:w-[86px]",
   },
   {
     src: html,
     name: "HTML5",
-    size: 124,
+    widthClass: "w-[100px] lg:w-[124px]",
   },
   {
     src: javascript,
     name: "JavaScript",
-    size: 160,
+    widthClass: "w-[120px] lg:w-[160px]",
   },
   {
     src: bitbucket,
     name: "BitBucket",
-    size: 80,
+    widthClass: "w-[60px] lg:w-[80px]",
   },
   {
     src: nextjs,
     name: "Next.JS",
-    size: 105,
+    widthClass: "w-[145px] lg:w-[105px]",
   },
   {
     src: nodejs,
     name: "Node.JS",
-    size: 140,
+    widthClass: "w-[100px] lg:w-[140px]",
   },
   {
     src: sass,
     name: "Sass",
-    size: 100,
+    widthClass: "w-[80px] lg:w-[100px]",
   },
   {
     src: gitHub,
     name: "Git Hub",
-    size: 90,
+    widthClass: "w-[70px] lg:w-[90px]",
   },
   {
     src: mySQL,
     name: "MySQL",
-    size: 135,
+    widthClass: "w-[105px] lg:w-[135px]",
   },
   {
     src: redux,
     name: "Redux",
-    size: 90,
+    widthClass: "w-[70px] lg:w-[90px]",
   },
   {
     src: typescript,
     name: "TypeScript",
-    size: 150,
+    widthClass: "w-[110px] lg:w-[150px]",
   },
   {
     src: sonarqube,
     name: "SonarQube",
-    size: 80,
+    widthClass: "w-[60px] lg:w-[80px]",
   },
   {
     src: jest,
     name: "Jest",
-    size: 100,
+    widthClass: "w-[80px] lg:w-[100px]",
   },
   {
     src: azure,
     name: "Azure DevOps",
-    size: 60,
+    widthClass: "w-[40px] lg:w-[60px]",
   },
 ];

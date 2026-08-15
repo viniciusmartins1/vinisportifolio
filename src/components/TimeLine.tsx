@@ -21,10 +21,11 @@ const TimeLineItem = ({
   const isTypeEducation = type === "education";
 
   return (
-    <div className="flex flex-col w-[55%] justify-center text-lg">
+    <div className="flex flex-col lg:w-[55%] justify-center text-sm lg:text-lg">
       <div
         className={`
           rounded-4xl w-0.5 h-36 ml-[47.5%]
+          drop-shadow-lg drop-shadow-indigo-500/50
           bg-[linear-gradient(to_bottom,black_0%,black_10%,var(--color-white)_90%,var(--color-black)_10%)] 
         `}
       ></div>
@@ -63,7 +64,10 @@ const Education = ({
         <p className="text-base">{location}</p>
       </div>
       <img
-        className="absolute top-[15%] right-[50%]"
+        className="absolute 
+          top-[15%] 
+          right-[48%] md:right-[50.2%] lg:right-[50%]
+        "
         src={educationIcon}
         width={34}
         alt="icon"
@@ -88,7 +92,10 @@ const Work = ({
         {startYear}-{endYear}
       </p>
       <img
-        className="absolute top-[15%] right-[50.5%]"
+        className="
+          absolute top-[15%] 
+          right-[49%] md:right-[50.8%] lg:right-[50.5%] 
+        "
         src={workIcon}
         width={24}
         alt="icon"

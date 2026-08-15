@@ -38,9 +38,11 @@ const Technologies = () => {
                         key={item.name}
                         src={item.src}
                         alt={item.name}
-                        width={item.size}
-                        height={item.size}
-                        className="drop-shadow-lg drop-shadow-indigo-500/50 hover:scale-85"
+                        className={`
+                          ${item.widthClass} 
+                          drop-shadow-lg 
+                          drop-shadow-indigo-500/50 
+                          hover:scale-85`}
                       />
                     </div>
                   );

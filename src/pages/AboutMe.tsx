@@ -12,21 +12,28 @@ const AboutMe = () => {
   const { t } = useTranslation();
 
   return (
-    <section id={ABOUT_HOME_SECTION_ID} className="pt-24 scroll-mt-10">
+    <section id={ABOUT_HOME_SECTION_ID} className="lg:pt-24 scroll-mt-10">
       <div className="flex justify-between content-center">
         <img
           src={profileImg}
           alt={t(`${TRANSLATION_BASE}.imgDescription`)}
-          className="w-130 pt-25"
+          className="hidden lg:block w-130 pt-25"
         />
-        <div className="flex flex-col w-155">
+        <div className="flex flex-col w-fit lg:w-155">
           <Title
             title={t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
             textAlign="left"
           />
 
-          <div className="flex flex-col gap-5.5 mt-20 text-justify text-lg">
-            <p className="text-justify leading-8">
+          <div
+            className="
+              flex flex-col gap-5.5 
+              mt-8 lg:mt-20 
+              text-justify 
+              text-xs lg:text-lg
+            "
+          >
+            <p>
               {t(`${TRANSLATION_BASE}.paragraphOne`)
                 .split(" ")
                 .map((word, index) => {
