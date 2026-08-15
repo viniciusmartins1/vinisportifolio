@@ -38,7 +38,7 @@ const Projects = () => {
               title={t(`${TRANSLATION_BASE}.${item.title}`).toLocaleLowerCase()}
               textAlign={item.titlePosition}
             />
-            <div className="flex gap-3.5 justify-between py-10">
+            <div className="flex gap-3.5 justify-between py-10 px-3">
               {item.projects.map(
                 ({ title, description, image, link, badges }) => {
                   const badgesTraslated = badges.map((badge) =>
@@ -53,7 +53,9 @@ const Projects = () => {
                       link={link}
                       image={image}
                       badges={badgesTraslated}
-                      color={item.primaryColor}
+                      backgroundColor={item.backgroundColor}
+                      hoverBackgroundColor={item.hoverColor}
+                      textColor={item.hoverColor}
                     />
                   );
                 },

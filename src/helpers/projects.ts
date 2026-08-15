@@ -7,6 +7,7 @@ import educationalYoutube from "../assets/images/projects/educational_youtube.pn
 import internationalCourse from "../assets/images/projects/international_course.jpg";
 import internationalGardening from "../assets/images/projects/international_garding.png";
 import internationalHouseKeeping from "../assets/images/projects/international_housekeeping.jpg";
+import type { backgroundClasses, hoverClasses } from "../styles/classes";
 
 export interface IProject {
   title: string;
@@ -19,7 +20,8 @@ export interface IProject {
 interface IProjectList {
   title: string;
   titlePosition: "left" | "right";
-  primaryColor: "--color-primary" | "--color-blue" | "--color-pink";
+  backgroundColor: keyof typeof backgroundClasses;
+  hoverColor: keyof typeof hoverClasses;
   projects: IProject[];
 }
 
@@ -122,19 +124,22 @@ export const projects: IProjectList[] = [
   {
     title: "code.title",
     titlePosition: "left",
-    primaryColor: "--color-pink",
+    backgroundColor: "pink-dark",
+    hoverColor: "pink",
     projects: code,
   },
   {
     title: "educational.title",
     titlePosition: "right",
-    primaryColor: "--color-primary",
+    backgroundColor: "primary-dark",
+    hoverColor: "primary",
     projects: educational,
   },
   {
     title: "international.title",
     titlePosition: "left",
-    primaryColor: "--color-blue",
+    backgroundColor: "blue-dark",
+    hoverColor: "blue",
     projects: international,
   },
 ];

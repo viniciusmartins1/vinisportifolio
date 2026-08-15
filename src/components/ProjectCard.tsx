@@ -1,24 +1,31 @@
 import type { IProject } from "../helpers/projects";
+import {
+  backgroundClasses,
+  gradients,
+  textColorClasses,
+  type hoverClasses,
+} from "../styles/classes";
 import Badge from "./Badge";
 
 interface IProjectCardProps extends IProject {
-  color: string;
+  backgroundColor: keyof typeof backgroundClasses;
+  hoverBackgroundColor: keyof typeof hoverClasses;
+  textColor: keyof typeof textColorClasses;
 }
 
 const ProjectCard = ({
   title,
   description,
-  color,
   badges,
   image,
   link,
+  textColor,
+  hoverBackgroundColor,
+  backgroundColor,
 }: IProjectCardProps) => {
   return (
     <div
-      className="rounded-[64px] p-0.5"
-      style={{
-        backgroundImage: `linear-gradient(to top, white 0%, white 10%, var(${color}) 35%, var(${color}) 100%)`,
-      }}
+      className={`rounded-[64px] p-0.5 ${gradients[hoverBackgroundColor]} card-hover`}
     >
       <div className="pt-3.5 h-100 w-80 rounded-[62px] flex flex-col overflow-hidden bg-black">
         <div className="px-7 mb-2.5">
@@ -27,13 +34,14 @@ const ProjectCard = ({
               return (
                 <Badge
                   text={text}
-                  backgroundColor={`${color}-dark`}
+                  background={backgroundColor}
+                  hoverBackground={hoverBackgroundColor}
                   size="small"
                 />
               );
             })}
           </div>
-          <h3 className="text-xl font-bold" style={{ color: `var(${color})` }}>
+          <h3 className={`text-xl font-bold ${textColorClasses[textColor]}`}>
             {title.toLocaleLowerCase()}
           </h3>
           <p className="text-xs text-justify leading-relaxed">{description}</p>

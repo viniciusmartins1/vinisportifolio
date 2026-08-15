@@ -1,26 +1,30 @@
+import { backgroundClasses, hoverClasses } from "../styles/classes";
+
 type BadgeProps = {
   text: string;
-  backgroundColor?: string;
+  background?: keyof typeof backgroundClasses;
+  hoverBackground?: keyof typeof hoverClasses;
   size?: "small" | "regular";
+  isRounded?: boolean;
 };
 
-const Badge = ({ backgroundColor, text, size = "regular" }: BadgeProps) => {
-  const isSizeSmall = size === "small";
+const Badge = ({
+  text,
+  background = "primary-dark",
+  size = "regular",
+  hoverBackground = "primary",
+  isRounded = true,
+}: BadgeProps) => {
+  const sizeClass = size === "small" ? "text-xs" : "text-lg";
 
   return (
     <button
       style={{
-        backgroundColor: backgroundColor
-          ? `var(${backgroundColor})`
-          : "var(--color-primary-dark)",
-        padding: isSizeSmall ? "6px 6px" : "6px 14px",
-        fontSize: isSizeSmall ? "var(--text-xs)" : "var(--text-lg)",
-        lineHeight: isSizeSmall
-          ? "var(--text-xs--line-height)"
-          : "var(--text-lg--line-height)",
-        minWidth: isSizeSmall ? "70px" : "80px",
+        padding: size === "small" ? "6px 6px" : "6px 14px",
+        minWidth: size === "small" ? "70px" : "80px",
+        borderRadius: isRounded ? "64px" : "",
       }}
-      className={`rounded-full`}
+      className={`${backgroundClasses[background]} ${hoverClasses[hoverBackground]} ${sizeClass} hover:font-bold hover:scale-95`}
     >
       {text}
     </button>
