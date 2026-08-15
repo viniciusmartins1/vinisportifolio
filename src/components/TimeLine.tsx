@@ -57,7 +57,7 @@ const Education = ({
   endYear,
 }: ITimeLineItemProps) => {
   return (
-    <div className="w-full relative flex">
+    <div className="w-full relative flex hover-underline">
       <div className="text-right w-[40%]  ">
         <p>{role}</p>
         <p className="text-base">{location}</p>
@@ -83,7 +83,7 @@ const Work = ({
   location,
 }: ITimeLineItemProps) => {
   return (
-    <div className="w-full relative flex">
+    <div className="w-full relative flex hover-underline ">
       <p className="absolute top-[15%] w-[40%] text-right opacity-75">
         {startYear}-{endYear}
       </p>

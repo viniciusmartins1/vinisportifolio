@@ -14,19 +14,19 @@ const Header = () => {
   return (
     <header
       className="
-        flex justify-between py-6 bg-black sticky top-0
+        flex justify-between align-middle py-6 bg-black sticky top-0
         w-full z-1000"
     >
-      <a href={homeMenu.link}>
+      <a href={homeMenu.link} className="flex">
         <img
           src={logo}
           alt={t("components.header.logo").toLocaleLowerCase()}
-          className="w-40 cursor-pointer z-10 animate-fade-up [animation-delay:0ms]"
+          className="w-30 cursor-pointer z-10 animate-fade-up [animation-delay:0ms]"
           onClick={() => setMenuActive(homeMenu.id)}
         />
       </a>
 
-      <ul className=" flex gap-8 content-center flex-wrap text-2xl">
+      <ul className=" flex gap-8 content-center flex-wrap text-2xl menu-hover">
         {menus.map(({ menu, id, link }) => {
           return (
             <li>

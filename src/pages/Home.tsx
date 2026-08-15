@@ -34,7 +34,7 @@ const Home = () => {
       className="flex pt-10 pb-20 justify-between scroll-mt-20"
     >
       <div className="pt-20">
-        <h1 className="text-primary text-7xl w-80 font-medium animate-fade-up [animation-delay:200ms]">
+        <h1 className="text-primary text-7xl w-80 font-medium  [animation-delay:200ms] animate-name-glow">
           {t(`${TRANSLATION_BASE}.title`).toLocaleLowerCase()}
         </h1>
         <h3 className="mt-4.5 mb-1.5 text-3xl animate-fade-up">
@@ -57,6 +57,7 @@ const Home = () => {
           hover:bg-primary-hover
           transition delay-100 duration-300 
           animate-fade-up
+          drop-shadow-lg drop-shadow-indigo-500/50
           "
         >
           <a href={contactMenu.link}>{t(`${TRANSLATION_BASE}.getInTouch`)}</a>

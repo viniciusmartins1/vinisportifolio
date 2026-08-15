@@ -15,13 +15,10 @@ const Title = ({ title, textAlign }: TitleProps) => {
       }}
     >
       <div className="w-fit">
-        <h1 className="text-3xl">{title}</h1>
+        <h1 className="text-3xl title-hover">{title}</h1>
 
         <div
-          className={`
-            w-[130%]
-            rounded-full
-          `}
+          className={`w-[130%] rounded-full`}
           style={{
             borderBottom: "0.5px solid",
             borderImage:

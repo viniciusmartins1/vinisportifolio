@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <section
       id={CONTACT_MENU_SECTION_ID}
-      className="flex flex-col gap-12 pb-64 mb-32 bg-no-repeat bg-right bg-size-[75%] scroll-mt-30"
+      className="flex flex-col gap-12 pb-44 mb-32 bg-no-repeat bg-right bg-size-[75%] scroll-mt-30"
       style={{
         backgroundImage: `
           linear-gradient(
@@ -26,18 +26,27 @@ const Contact = () => {
           url(${pageBackground})`,
       }}
     >
-      <h2
-        className="text-6xl w-[18%] bg-clip-text text-transparent"
-        style={{
-          WebkitBackgroundClip: "text",
-          backgroundImage:
-            "linear-gradient(to right, white 0%, white 5%, var(--color-primary) 70%, var(--color-primary) 100%)",
-        }}
-      >
+      <h2 className="text-6xl text-white w-[18%] bg-clip-text  animate-shadow-dance">
         {t(`${TRANSLATION_BASE}.title`).toLocaleUpperCase()}
       </h2>
       <p className="w-[45%] text-justify">
-        {t(`${TRANSLATION_BASE}.description`)}
+        {t(`${TRANSLATION_BASE}.description`)
+          .split(" ")
+          .map((word, index) => {
+            return (
+              <span
+                key={index}
+                className="
+                      transition-all
+                      duration-300
+                      hover:text-primary
+                      hover:font-bold
+                    "
+              >
+                {word}{" "}
+              </span>
+            );
+          })}
       </p>
       <div className="w-fit">
         <a href={`mailto:${EMAIL_ADDRESS}`}>
@@ -68,6 +77,7 @@ const Contact = () => {
               width={50}
               height={50}
               alt={t(`${TRANSLATION_BASE}.altLinkedIn`)}
+              className="hover:scale-110"
             />
           </a>
         </li>
@@ -78,6 +88,7 @@ const Contact = () => {
               width={50}
               height={50}
               alt={t(`${TRANSLATION_BASE}.altGitHub`)}
+              className="hover:scale-110"
             />
           </a>
         </li>
@@ -88,6 +99,7 @@ const Contact = () => {
               width={50}
               height={50}
               alt={t(`${TRANSLATION_BASE}.altYoutube`)}
+              className="hover:scale-110"
             />
           </a>
         </li>

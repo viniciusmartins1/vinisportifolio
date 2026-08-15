@@ -10,12 +10,14 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
+import CursorAnimation from "./components/CursorAnimation";
 
 function App() {
   // const { t, i18n } = useTranslation();
 
   return (
-    <div className="w-screen flex justify-center relative scroll-smooth">
+    <div className="w-full flex justify-center relative scroll-smooth">
+      <CursorAnimation />
       <Snowfall
         color="#fff"
         snowflakeCount={500}
