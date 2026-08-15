@@ -45,3 +45,26 @@ export const menus: IMenu[] = [
     link: "#contact-section",
   },
 ];
+
+export const startSectionObserver = (callback: (sectionId: string) => void) => {
+  const sections = menus
+    .map(({ sectionId }) => document.getElementById(sectionId))
+    .filter(Boolean);
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) callback(entry.target.id);
+      });
+    },
+    {
+      threshold: 0.3,
+    },
+  );
+
+  sections.forEach((section) => {
+    if (section) observer.observe(section);
+  });
+
+  return observer;
+};

@@ -1,15 +1,24 @@
 import { useTranslation } from "react-i18next";
 import logo from "../assets/svgs/logo.svg";
-import { useState } from "react";
-import { menus } from "../helpers/menu";
+import { useEffect, useState } from "react";
+import { menus, startSectionObserver } from "../helpers/menu";
 import { ZERO } from "../constants/numbers";
 
 const homeMenu = menus[ZERO];
 
 const Header = () => {
-  const [menuActive, setMenuActive] = useState<number>(homeMenu.id);
+  const [menuActive, setMenuActive] = useState<string>(homeMenu.sectionId);
 
   const { t } = useTranslation();
+
+  useEffect(() => {
+    const observer = startSectionObserver((sectionId) =>
+      setMenuActive(sectionId),
+    );
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   return (
     <header
@@ -22,14 +31,13 @@ const Header = () => {
           src={logo}
           alt={t("components.header.logo").toLocaleLowerCase()}
           className="w-30 cursor-pointer z-10 animate-fade-up [animation-delay:0ms]"
-          onClick={() => setMenuActive(homeMenu.id)}
         />
       </a>
 
       <ul className=" flex gap-8 content-center flex-wrap text-2xl menu-hover">
-        {menus.map(({ menu, id, link }) => {
+        {menus.map(({ menu, sectionId, link }) => {
           return (
-            <li>
+            <li key={sectionId}>
               <a
                 className={`
                   text-lg
@@ -40,12 +48,11 @@ const Header = () => {
                   ease-in-out 
                   hover:-translate-y-1  
                   hover:text-primary 
-                  ${id === menuActive && "text-primary"}
+                  ${sectionId === menuActive && "text-primary"}
                   animate-fade-up
                   [animation-delay:150ms]
                 `}
                 href={link}
-                onClick={() => setMenuActive(id)}
               >
                 {t(`components.header.menu.${menu}`).toLocaleLowerCase()}
               </a>
