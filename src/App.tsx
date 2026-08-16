@@ -13,13 +13,19 @@ import CursorAnimation from "./components/CursorAnimation";
 function App() {
   return (
     <div className="w-full flex justify-center relative scroll-smooth">
-      <CursorAnimation />
-      <Snowfall
-        color="#fff"
-        snowflakeCount={500}
-        enable3DRotation
-        speed={[0.5, 0.8]}
-      />
+      <div className="block md:hidden">
+        <Snowfall color="#fff" snowflakeCount={150} speed={[0.5, 0.8]} />
+      </div>
+
+      <div className="hidden md:block ">
+        <CursorAnimation />
+        <Snowfall
+          color="#fff"
+          snowflakeCount={500}
+          speed={[0.5, 0.8]}
+          enable3DRotation
+        />
+      </div>
 
       <div className="w-full max-w-7xl mx-auto px-4 flex flex-col gap-16">
         <Header />

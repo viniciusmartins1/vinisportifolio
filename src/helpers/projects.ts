@@ -1,6 +1,9 @@
 import codeCoffeDelivery from "../assets/images/projects/coder_coffee_delivery.png";
 import codeIgniteShop from "../assets/images/projects/coder_ignite_shop.png";
 import codeGithubBlog from "../assets/images/projects/coder_github_blog.png";
+import codeDesignSystem from "../assets/images/projects/coder_storybook.png";
+import codeMusicplayer from "../assets/images/projects/coder_musicplayer.png";
+import codeMeguie from "../assets/images/projects/coder_meguie.png";
 import educationalBook from "../assets/images/projects/educational_book.png";
 import educationalInstructor from "../assets/images/projects/educational_instructor.png";
 import educationalYoutube from "../assets/images/projects/educational_youtube.png";
@@ -55,6 +58,39 @@ const code: IProject[] = [
     ],
     link: "https://github.com/viniciusmartins1/github-blog",
   },
+  {
+    title: "code.projects.designSystemTitle",
+    description: "code.projects.designSystemDescription",
+    image: codeDesignSystem,
+    badges: [
+      "code.projects.storybook",
+      "code.projects.stitches",
+      "code.projects.monoRepo",
+    ],
+    link: "https://github.com/viniciusmartins1/design-system",
+  },
+  {
+    title: "code.projects.meguieTitle",
+    description: "code.projects.meguieDescription",
+    image: codeMeguie,
+    badges: [
+      "code.projects.androidStudio",
+      "code.projects.java",
+      "code.projects.sqlLite",
+    ],
+    link: "https://github.com/viniciusmartins1/meguie",
+  },
+  {
+    title: "code.projects.musicplayerTitle",
+    description: "code.projects.musicplayerDescription",
+    image: codeMusicplayer,
+    badges: [
+      "code.projects.css",
+      "code.projects.flexBox",
+      "code.projects.html",
+    ],
+    link: "https://github.com/viniciusmartins1/react-music-player",
+  },
 ];
 
 const educational: IProject[] = [
@@ -101,7 +137,6 @@ const international: IProject[] = [
     description: "international.projects.gardeningDescription",
     image: internationalGardening,
     badges: [
-      "international.projects.dailyEnglish",
       "international.projects.environment",
       "international.projects.hawkesBay",
     ],
@@ -112,7 +147,6 @@ const international: IProject[] = [
     description: "international.projects.housekeepingDescription",
     image: internationalHouseKeeping,
     badges: [
-      "international.projects.dailyEnglish",
       "international.projects.languages",
       "international.projects.queenstown",
     ],

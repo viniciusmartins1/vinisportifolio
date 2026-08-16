@@ -24,8 +24,7 @@ const Badge = ({
         ${backgroundClasses[background]} 
         ${hoverClasses[hoverBackground]} 
         ${sizeClass} 
-        px-3.5 py-1.5 
-        lg:min-w-20 
+        px-3.5 py-1.5  
         hover:font-bold 
         hover:scale-95`}
     >

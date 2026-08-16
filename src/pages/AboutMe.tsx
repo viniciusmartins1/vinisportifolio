@@ -17,7 +17,7 @@ const AboutMe = () => {
         <img
           src={profileImg}
           alt={t(`${TRANSLATION_BASE}.imgDescription`)}
-          className="hidden lg:block w-130 pt-25"
+          className="hidden lg:block w-140 pt-25"
         />
         <div className="flex flex-col w-fit lg:w-155">
           <Title

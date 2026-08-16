@@ -26,7 +26,7 @@
         "title": "Sobre mim",
         "imgDescription": "Uma foto minha com duas sombras da mesma imagem, uma vermelha e outra azul",
         "paragraphOne": "Meu nome é Vinicius e sou Desenvolvedor Front-End com mais de quatro anos de experiência prática desenvolvendo, mantendo e dando suporte a aplicações web utilizando tecnologias como React, Angular, TypeScript e JavaScript.",
-        "paragraphTwo": "Contribuí para projetos focados em design responsivo, otimização de performance e arquitetura de interfaces escaláveis. Também tenho experiência com testes automatizados, controle de versão, pipelines de CI/CD e práticas de DevOps, ajudando a garantir a qualidade do código e implantações confiáveis.",
+        "paragraphTwo": "Contribuí para projetos em diferentes setores, incluindo empreendimentos, varejo, indústria e gás, financeiro e bancário, e sistemas militares, com foco em design responsivo, otimização de performance e arquitetura de interfaces escaláveis. Também tenho experiência com testes automatizados, controle de versão, pipelines de CI/CD e práticas de DevOps, contribuindo para a qualidade do código e para implantações confiáveis.",
         "paragraphThree": "Além da minha experiência como desenvolvedor, sou Instrutor de Tecnologia, com experiência no ensino de desenvolvimento web e outras áreas relacionadas à T.I., abrangendo desde conceitos fundamentais até boas práticas do mercado.",
         "paragraphFour": "Tenho experiência ministrando aulas presenciais e online, além de criar cursos de tecnologia e conteúdos educacionais voltados para desenvolvimento de software e soft skills profissionais."
       },
@@ -60,17 +60,31 @@
           "title": "Projetos de Código",
           "projects": {
             "coffeDeliveryTitle": "Coffee Delivery",
-            "coffeDeliveryDescription": "Aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia. Neste projeto, fui responsável por codificar o design e desenvolver as funcionalidades.",
+            "coffeDeliveryDescription": "Aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia. O projeto foi codificado em React e outras bibliotecas.",
             "igniteShopTitle": "Ignite Shop",
-            "igniteShopDescription": "A aplicação simula uma loja de camisetas utilizando Next.js. Há uma integração com o Stripe responsável pelo processo de pagamento.",
+            "igniteShopDescription": "A aplicação simula uma loja de camisetas. Há uma integração com o Stripe responsável pelo processo de pagamento.",
             "githubBlogTitle": "GitHub Blog",
             "githubBlogDescription": "A aplicação exibe as issues de um repositório específico, além de alguns dados do perfil de um usuário do GitHub.",
+            "designSystemTitle": "Design System",
+            "designSystemDescription": "A aplicação tem como objetivo documentar o design system de uma aplicação por meio do storybook e da criação de monorepos.",
+            "meguieTitle": "Me Guie",
+            "meguieDescription": "Aplicativo mobile escrito com Android Studio e Java, seguindo diretrizes da ODS número 8 da ONU.",
+            "musicplayerTitle": "Music Player",
+            "musicplayerDescription": "Aplicação de layouts para um tocador de música. O foco do projeto é o alinhamento de elementos HTML em uma página web.",
             "react": "React",
             "typescript": "TypeScript",
             "nextjs": "Next.js",
             "ssr": "SSR",
-            "reactRouter": "React Router DOM",
-            "api": "API"
+            "reactRouter": "React Router",
+            "api": "API",
+            "storybook": "Storybook",
+            "stitches": "Stitches",
+            "monoRepo": "Monorepo",
+            "androidStudio": "Android Studio",
+            "java": "Java",
+            "sqlLite": "SQL Lite",
+            "css": "CSS",
+            "flexBox": "Flexbox"
           }
         },
         "educational": {
@@ -115,7 +129,8 @@
         "description": "Fique à vontade para entrar em contato caso queira saber mais sobre meu trabalho ou simplesmente conversar sobre oportunidades e projetos. Obrigado pela visita.",
         "altLinkedIn": "Link do meu perfil no LinkedIn",
         "altGitHub": "Link do meu perfil no GitHub",
-        "altYoutube": "Link do meu canal no YouTube"
+        "altYoutube": "Link do meu canal no YouTube",
+        "downloadCV": "Baixar CV"
       },
       "footer": {
         "title": "< feito por vinicius />"

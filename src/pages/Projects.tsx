@@ -16,7 +16,7 @@ const Projects = () => {
     <section
       id={PROJECTS_MENU_SECTION_ID}
       className="
-        -mt-24 lg:mt-0 pb-60 lg:pb-15 pt-2 bg-size-[40%]  
+        -mt-24 lg:mt-0 pb-60 lg:pb-65 pt-2 bg-size-[40%]  
         flex flex-col lg:gap-28 
         scroll-mt-30
         mask-[linear-gradient(to_bottom,transparent,black_1%,black_85%,transparent)]
@@ -34,7 +34,7 @@ const Projects = () => {
       {projects.map((item) => {
         return (
           <div
-            className="pb-10 pt-10 lg:pb-20 flex flex-col gap-16 last:mb-80 lg:last:mb-0"
+            className="pb-10 pt-10 lg:pb-20 flex flex-col gap-16 last:mb-90 lg:last:mb-0"
             key={item.title}
           >
             <Title

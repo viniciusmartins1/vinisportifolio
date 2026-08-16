@@ -26,7 +26,7 @@
         "title": "About me",
         "imgDescription": "An photo of my self with two shaddows of the same picture, one in red and the other one in blue",
         "paragraphOne": "My name is Vinicius, and I am a Front-End Developer with over four years of hands-on experience building, maintaining, and supporting web applications using technologies such as React, Angular, TypeScript, and JavaScript.",
-        "paragraphTwo": "I have contributed to projects focused on responsive design, performance optimization, and scalable UI architecture. I also have experience with automated testing, version control, CI/CD pipelines, and DevOps practices, helping ensure code quality and reliable deployments.",
+        "paragraphTwo": "I have contributed to projects across different industries, including real estate, retail, oil and gas, financial and banking, and military systems, with a focus on responsive design, performance optimization, and scalable UI architecture. I also have experience with automated testing, version control, CI/CD pipelines, and DevOps practices, contributing to code quality and reliable deployments.",
         "paragraphThree": "In addition to my development experience, I am a Technology Instructor with a background in teaching web development and other IT-related subjects, covering everything from fundamental concepts to industry best practices.",
         "paragraphFour": "I have experience delivering both in-person and online classes, as well as creating technology courses and educational content focused on software development and professional soft skills."
       },
@@ -59,49 +59,64 @@
         "code": {
           "title": "Code Projects",
           "projects": {
-            "coffeDeliveryTitle": "Coffe Delivery",
-            "coffeDeliveryDescription": "Application to manage a shopping cart for a fictional coffee shop. For this project, I only needed to code the design and develop the functionality.",
+            "coffeDeliveryTitle": "Coffee Delivery",
+            "coffeDeliveryDescription": "An application for managing a shopping cart for a fictional coffee shop. The project was built with React and other libraries.",
             "igniteShopTitle": "Ignite Shop",
-            "igniteShopDescription": "The application aims to simulate a T-shirt sales app using Next.js. There is an integration with Stripe that handles the payment process.",
+            "igniteShopDescription": "An application that simulates a T-shirt store. It includes a Stripe integration to handle the payment process.",
             "githubBlogTitle": "GitHub Blog",
-            "githubBlogDescription": "The application aims to display the issues of a specific repository, as well as some profile data of a GitHub user.",
+            "githubBlogDescription": "An application that displays issues from a specific repository, along with some profile information from a GitHub user.",
+            "designSystemTitle": "Design System",
+            "designSystemDescription": "An application designed to document a design system using Storybook and a monorepo architecture.",
+            "meguieTitle": "Me Guie",
+            "meguieDescription": "A mobile application developed using Android Studio and Java, following the guidelines of the UN Sustainable Development Goal 8.",
+            "musicplayerTitle": "Music Player",
+            "musicplayerDescription": "An application featuring layouts for a music player. The main focus of the project was the alignment of HTML elements within a web page.",
             "react": "React",
             "typescript": "TypeScript",
             "nextjs": "Next.js",
             "ssr": "SSR",
-            "reactRouter": "React Router DOM",
-            "api": "API"
+            "reactRouter": "React Router",
+            "api": "API",
+            "storybook": "Storybook",
+            "stitches": "Stitches",
+            "monoRepo": "Monorepo",
+            "androidStudio": "Android Studio",
+            "java": "Java",
+            "sqlLite": "SQLite",
+            "css": "CSS",
+            "flexBox": "Flexbox",
+            "html": "HTML"
           }
         },
         "educational": {
           "title": "Educational and Academic Projects",
           "projects": {
             "bookTitle": "Prompt Engineering",
-            "bookDescription": "Contribution to an article on Prompt Engineering for the book *Tecnologias do Amanhã* (Technologies of Tomorrow).",
+            "bookDescription": "Contribution to an article about Prompt Engineering for the book *Tecnologias do Amanhã*.",
             "article": "Article",
             "book": "Book",
             "channelTitle": "Twins Tech",
-            "channelDescription": "YouTube channel for sharing knowledge and personal experiences in the IT field mainly with new students.",
+            "channelDescription": "A YouTube channel focused on sharing knowledge and personal experiences in the IT field, mainly for new students.",
             "community": "Community",
-            "instructorTitle": "Soft-Skills Instructor",
-            "instructorDescription": "Delivering online classes on soft skills and the job market for the social project Escola da Nuvem.",
+            "instructorTitle": "Soft Skills Instructor",
+            "instructorDescription": "Teaching online classes about soft skills and the job market for the social project Escola da Nuvem.",
             "volunteering": "Volunteering",
             "youtube": "YouTube",
-            "softskills": "Soft-Skills"
+            "softskills": "Soft Skills"
           }
         },
         "international": {
           "title": "International Projects",
           "projects": {
             "exchangeTitle": "English Exchange",
-            "exchangeDescription": "Cultural and educational exchange in New Zealand to improve my English language skills. I stayed in New Zealand for nine months.",
+            "exchangeDescription": "A cultural and educational exchange in New Zealand to improve my English language skills. I stayed in New Zealand for nine months.",
             "gardeningTitle": "Gardening Volunteering",
-            "gardeningDescription": "Volunteering involving gardening, painting, repair, and planting activities, combined with environmental awareness.",
+            "gardeningDescription": "Volunteering involving gardening, painting, repairs, and planting activities, combined with environmental awareness.",
             "housekeepingTitle": "Housekeeping Volunteering",
-            "housekeepingDescription": "Volunteering as a housekeeper at a hostel where we shared tasks, experiences, and conversations.",
+            "housekeepingDescription": "Volunteering as a housekeeper at a hostel, where we shared tasks, experiences, and conversations.",
             "course": "Course",
             "languages": "Languages",
-            "dailyEnglish": "Daily English",
+            "dailyEnglish": "Everyday English",
             "environment": "Environment",
             "volunteering": "Volunteering",
             "auckland": "Auckland",
@@ -115,7 +130,8 @@
         "description": "Feel free to contact me if you would like to know more about my work or simply chat about opportunities and projects. Thanks for visiting.",
         "altLinkedIn": "Link of my profile on LinkedIn",
         "altGitHub": "Link of my profile on GitHub",
-        "altYoutube": "Link of my channel on Youtube"
+        "altYoutube": "Link of my channel on Youtube",
+        "downloadCV": "Download CV"
       },
       "footer": {
         "title": "< made by vinicius />"
