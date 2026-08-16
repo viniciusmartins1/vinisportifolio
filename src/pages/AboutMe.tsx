@@ -30,7 +30,7 @@ const AboutMe = () => {
               flex flex-col gap-5.5 
               mt-8 lg:mt-20 
               text-justify 
-              text-xs lg:text-lg
+              text-xs lg:text-lg 
             "
           >
             <p>
