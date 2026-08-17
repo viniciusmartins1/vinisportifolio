@@ -1,59 +1,39 @@
 
-# Vinicius Martins — Portfolio 
+# hello world 🌎
+ 
+Hi, I'm Vinicius Martins
+  
+Front-End Developer and I.T Instructor
+I'm passionate about technology and I like learning new and innovative things. 👨‍💻 
+#### "💡 Change your thoughts and you change your world 🌐"
 
-> 🔗 **Live Website:**
-> > **[viniciusgmartins.com.br](https://www.viniciusgmartins.com.br)**
+#### my website 
+[viniciusgmartins.com.br](www.viniciusgmartins.com.br) ❄️
 
-## About
+#### social media and content
+ [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vinicius-martins-620ab51b9/)](https://www.linkedin.com/in/vinicius-martins1/)
+[![Youtube Badge](https://img.shields.io/badge/-Youtube-red?style=flat-square&logo=Youtube&logoColor=white&link=https://www.youtube.com/@twins_tech)](https://www.youtube.com/@twins_tech)
+[![Udemy Badge](https://img.shields.io/badge/-Udemy-purple?style=flat-square&logo=Udemy&logoColor=white&link=[https://www.youtube.com/@twins_tech](https://www.udemy.com/course/react-2026-com-typescript-do-zero-ao-primeiro-projeto-real/?referralCode=60FB7C50813E878FCF50))](https://www.udemy.com/course/react-2026-com-typescript-do-zero-ao-primeiro-projeto-real/?referralCode=60FB7C50813E878FCF50)
 
-This repository contains my personal portfolio website, designed and developed from scratch to showcase my experience, skills, projects, and professional journey.
+#### main Technologies 
 
-The visual design was created by me, taking creative inspiration from different developer portfolios and design references I researched online. Rather than reproducing any specific design, I used these references to explore ideas and build a visual identity that felt representative of my own style.
-
-I also designed and structured the project's architecture myself, organizing the application around reusable components, sections, translations, and maintainable code.
-
-## Technologies
-
-Some of the main technologies and tools used in this project:
+Some of the main technologies and tools I've been working with
 
 ![Typescript Badge](https://img.shields.io/badge/-Typescript-blue?style=flat-square&logo=Typescript&logoColor=white)
 ![React Badge](https://img.shields.io/badge/-React-black?style=flat-square&logo=React&logoColor=white)
+![Javascript Badge](https://img.shields.io/badge/-Javascript-yellow?style=flat-square&logo=Javascript&logoColor=white)
+![Angular Badge](https://img.shields.io/badge/-Angular-red?style=flat-square&logo=Angular&logoColor=white)
+![Node.js Badge](https://img.shields.io/badge/-NodeJS-gree?style=flat-square&logo=Node.js&logoColor=white)
+![React Native Badge](https://img.shields.io/badge/-React_Native-black?style=flat-square&logo=React&logoColor=white)
 ![Vite Badge](https://img.shields.io/badge/-Vite-purple?style=flat-square&logo=Vite&logoColor=white)
 ![TailwindCSS Badge](https://img.shields.io/badge/-TailwindCSS-white?style=flat-square&logo=TailwindCss&logoColor=ciano)
 ![CSS Badge](https://img.shields.io/badge/-CSS-blue?style=flat-square&logo=CSS&logoColor=white)
 ![React i18next Badge](https://img.shields.io/badge/React_i18next-green?style=flat-square&logo=i18next&logoColor=white)
+![Redux Badge](https://img.shields.io/badge/Redux-white?style=flat-square&logo=Redux&logoColor=purple)
+![Jasmine Badge](https://img.shields.io/badge/Jasmine-purple?style=flat-square&logo=jasmine&logoColor=white)
+![Jest Badge](https://img.shields.io/badge/Jest-red?style=flat-square&logo=Jest&logoColor=white)
 ![Git Badge](https://img.shields.io/badge/Git-orange?style=flat-square&logo=Git&logoColor=white)
 ![Git Badge](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=GitHub&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-blue?style=flat-square&logo=GitHubActions&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Actions-white?style=flat-square&logo=GitHubPages&logoColor=blue)
-
-
-## Highlights
-
- - `Responsive design for desktop, tablet, and mobile`
-- `Multilingual support (Portuguese, English, and Spanish)`
-- `CI/CD deployment using GitHub Actions`
-- `Custom domain with HTTPS`
-- `Custom animations and interactive elements`
-- `Custom cursor effects`
-- `Responsive navigation and smooth scrolling`
-- `Project and career sections`
-- `Downloadable resume`
-
-## Design & Development
-
-One of the goals of this project was to experiment with technologies and approaches that were new to me.
-
-I choose **Tailwind CSS** specifically because I had never worked with it before and wanted to use the project as an opportunity to learn the framework in a real-world application.
-
-Throughout the development process, I also used AI assistance, including **ChatGPT**, mainly as a development support tool for researching approaches, troubleshooting specific implementation issues, and exploring possible solutions. 
-
-The overall architecture, design decisions, implementation, and development of the project were carried out by me.
-
-## Purpose
-
-Beyond being a personal portfolio, this project was also an opportunity to experiment, learn, and build something from the ground up while continuously improving my front-end development skills.
-
----
-
-Made with curiosity, code, and a lot of experimentation. 🚀
+![Scrum Pages](https://img.shields.io/badge/Bitbucket-white?style=flat-square&logo=Bitbucket&logoColor=blue)
