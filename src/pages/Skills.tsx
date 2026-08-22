@@ -28,16 +28,16 @@ const Skills = () => {
           mt-5 lg:mt-20
         "
       >
-        {skillList.map(({ list, title }) => {
+        {skillList.map(({ list, title }, i) => {
           return (
-            <div>
+            <div key={i}>
               <p className="text-base lg:text-lg my-4.5 hover-underline">
                 {t(title)}
               </p>
 
               <div className={`flex gap-x-2 gap-y-3.5 flex-wrap`}>
-                {list.map((item) => {
-                  return <Badge text={item} />;
+                {list.map((item, i) => {
+                  return <Badge key={i} text={item} />;
                 })}
               </div>
             </div>
