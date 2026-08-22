@@ -22,7 +22,7 @@ function App() {
         <Snowfall
           color="#fff"
           snowflakeCount={500}
-          speed={[0.5, 0.8]}
+          speed={[0.5, 1.5]}
           enable3DRotation
         />
       </div>
