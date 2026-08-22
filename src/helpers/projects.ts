@@ -7,6 +7,7 @@ import codeMeguie from "../assets/images/projects/coder_meguie.png";
 import educationalBook from "../assets/images/projects/educational_book.png";
 import educationalInstructor from "../assets/images/projects/educational_instructor.png";
 import educationalYoutube from "../assets/images/projects/educational_youtube.png";
+import educationalUdemy from "../assets/images/projects/educational_udemy.png";
 import internationalCourse from "../assets/images/projects/international_course.jpg";
 import internationalGardening from "../assets/images/projects/international_garding.png";
 import internationalHouseKeeping from "../assets/images/projects/international_housekeeping.jpg";
@@ -117,6 +118,17 @@ const educational: IProject[] = [
       "educational.projects.softskills",
     ],
     link: "https://escoladanuvem.org",
+  },
+  {
+    title: "educational.projects.udemyTitle",
+    description: "educational.projects.udemyDescription",
+    image: educationalUdemy,
+    badges: [
+      "educational.projects.react",
+      "educational.projects.course",
+      "educational.projects.teaching",
+    ],
+    link: "https://www.udemy.com/course/react-2026-com-typescript-do-zero-ao-primeiro-projeto-real/?referralCode=60FB7C50813E878FCF50",
   },
 ];
 
