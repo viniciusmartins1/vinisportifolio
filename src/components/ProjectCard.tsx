@@ -30,9 +30,10 @@ const ProjectCard = ({
       <div className="pt-3.5 h-110  rounded-[62px] flex flex-col overflow-hidden bg-black">
         <div className="px-7 mb-2.5">
           <div className="flex flex-wrap gap-1.5 mb-16">
-            {badges.map((text) => {
+            {badges.map((text, index) => {
               return (
                 <Badge
+                  key={`${text}-${index}`}
                   text={text}
                   background={backgroundColor}
                   hoverBackground={hoverBackgroundColor}

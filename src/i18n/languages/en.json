@@ -93,16 +93,21 @@
           "projects": {
             "bookTitle": "Prompt Engineering",
             "bookDescription": "Contribution to an article about Prompt Engineering for the book *Tecnologias do Amanhã*.",
-            "article": "Article",
-            "book": "Book",
             "channelTitle": "Twins Tech",
             "channelDescription": "A YouTube channel focused on sharing knowledge and personal experiences in the IT field, mainly for new students.",
-            "community": "Community",
             "instructorTitle": "Soft Skills Instructor",
             "instructorDescription": "Teaching online classes about soft skills and the job market for the social project Escola da Nuvem.",
+            "udemyTitle": "React.js Online Course",
+            "udemyDescription": "A course for those who want to learn React thoroughly and consciously, understanding the fundamental concepts behind the library.",
+            "article": "Article",
+            "book": "Book",
+            "community": "Community",
             "volunteering": "Volunteering",
             "youtube": "YouTube",
-            "softskills": "Soft Skills"
+            "softskills": "Soft Skills",
+            "react": "React",
+            "course": "Course",
+            "teaching": "Teaching"
           }
         },
         "international": {

@@ -14,8 +14,9 @@ const Technologies = () => {
           "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
       }}
     >
-      {emptyList.map((_, index) => (
+      {emptyList.map((n, index) => (
         <div
+          key={`${index}-${n}`}
           className="flex w-max will-change-transform"
           style={{
             animation:
@@ -24,16 +25,19 @@ const Technologies = () => {
                 : "var(--animate-floating-icons-left)",
           }}
         >
-          {[ONE, TWO].map(() => {
+          {[ONE, TWO].map((n) => {
             const list =
               index === ZERO
                 ? technologiesList
                 : technologiesList.map((item) => item).reverse();
             return (
-              <div className="flex gap-14">
+              <div key={n} className="flex gap-14">
                 {list.map((item) => {
                   return (
-                    <div className="shrink-0 overflow-hidden select-none">
+                    <div
+                      key={item.name}
+                      className="shrink-0 overflow-hidden select-none"
+                    >
                       <img
                         key={item.name}
                         src={item.src}

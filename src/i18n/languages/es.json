@@ -93,16 +93,19 @@
           "projects": {
             "bookTitle": "Ingeniería de Prompts",
             "bookDescription": "Contribución a un artículo sobre Ingeniería de Prompts para el libro *Tecnologias do Amanhã*.",
-            "article": "Artículo",
-            "book": "Libro",
             "channelTitle": "Twins Tech",
             "channelDescription": "Un canal de YouTube enfocado en compartir conocimientos y experiencias personales en el área de TI, principalmente para nuevos estudiantes.",
-            "community": "Comunidad",
             "instructorTitle": "Instructor de Soft Skills",
-            "instructorDescription": "Impartición de clases online sobre soft skills y mercado laboral para el proyecto social Escola da Nuvem.",
+            "udemyDescription": "Un curso para quienes desean aprender React a fondo y de manera consciente, comprendiendo los conceptos fundamentales que sustentan la biblioteca.",
+            "article": "Artículo",
+            "book": "Libro",
+            "community": "Comunidad",
             "volunteering": "Voluntariado",
             "youtube": "YouTube",
-            "softskills": "Soft Skills"
+            "softskills": "Soft Skills",
+            "react": "React",
+            "course": "Curso",
+            "teaching": "Enseñanza"
           }
         },
         "international": {
