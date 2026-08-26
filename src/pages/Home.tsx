@@ -56,7 +56,6 @@ const Home = () => {
           className="
           bg-primary 
           rounded-4xl 
-          px-4.5 lg:px-6.5  py-1.5 lg:py-2.5 
           font-bold 
           mt-12 
           text-sx lg:text-lg 
@@ -67,7 +66,12 @@ const Home = () => {
           drop-shadow-lg drop-shadow-indigo-500/50
           "
         >
-          <a href={contactMenu.link}>{t(`${TRANSLATION_BASE}.getInTouch`)}</a>
+          <a
+            className="px-4.5 lg:px-6.5  py-1.5 lg:py-2.5 "
+            href={contactMenu.link}
+          >
+            {t(`${TRANSLATION_BASE}.getInTouch`)}
+          </a>
         </button>
       </div>
       <img
