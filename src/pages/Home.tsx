@@ -67,7 +67,7 @@ const Home = () => {
           "
         >
           <a
-            className="px-4.5 lg:px-6.5  py-1.5 lg:py-2.5 "
+            className="flex px-4.5 lg:px-6.5  py-1.5 lg:py-2.5 "
             href={contactMenu.link}
           >
             {t(`${TRANSLATION_BASE}.getInTouch`)}
