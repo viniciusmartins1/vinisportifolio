@@ -104,10 +104,10 @@ const Contact = () => {
           </a>
         </button>
 
-        <ul className="flex gap-5 ">
-          <li>
-            {contactLinks.map((item) => {
-              return (
+        <ul className="flex gap-5">
+          {contactLinks.map((item) => {
+            return (
+              <li key={item.name}>
                 <a href={item.link} target="_blank">
                   <img
                     src={item.img}
@@ -115,9 +115,9 @@ const Contact = () => {
                     className="w-9 md:w-12.5 hover:scale-110"
                   />
                 </a>
-              );
-            })}
-          </li>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>

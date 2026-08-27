@@ -1,6 +1,6 @@
 import linkedInIcon from "../assets/images/icon/linkedIn.png";
-import gitHubIcon from "../assets/images/icon/linkedIn.png";
-import youtubeIcon from "../assets/images/icon/linkedIn.png";
+import gitHubIcon from "../assets/images/icon/gitHub.png";
+import youtubeIcon from "../assets/images/icon/youtube.png";
 
 interface IContact {
   name: string;
