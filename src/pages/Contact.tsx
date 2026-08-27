@@ -2,13 +2,11 @@ import { useTranslation } from "react-i18next";
 import { FIVE } from "../constants/numbers";
 import { menus } from "../helpers/menu";
 
-import linkedInIcon from "../assets/images/icon/linkedIn.png";
-import gitHubIcon from "../assets/images/icon/gitHub.png";
-import youtubeIcon from "../assets/images/icon/youtube.png";
 import downloadIcon from "../assets/svgs/icons/downloadIcon.svg";
 
 import pageBackground from "../assets/images/contact_bg.png";
 import { i18nLanguages } from "../i18n";
+import { contactLinks } from "../helpers/contactLinks";
 
 const CONTACT_MENU_SECTION_ID = menus[FIVE].sectionId;
 const TRANSLATION_BASE = "pages.contact";
@@ -108,34 +106,17 @@ const Contact = () => {
 
         <ul className="flex gap-5 ">
           <li>
-            <a
-              href="https://www.linkedin.com/in/vinicius-martins1/"
-              target="_blank"
-            >
-              <img
-                src={linkedInIcon}
-                alt={t(`${TRANSLATION_BASE}.altLinkedIn`)}
-                className="w-9 md:w-12.5 hover:scale-110"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/viniciusmartins1" target="_blank">
-              <img
-                src={gitHubIcon}
-                alt={t(`${TRANSLATION_BASE}.altGitHub`)}
-                className="w-9 md:w-12.5 hover:scale-110"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@twins_tech" target="_blank">
-              <img
-                src={youtubeIcon}
-                alt={t(`${TRANSLATION_BASE}.altYoutube`)}
-                className="w-9 md:w-12.5 hover:scale-110"
-              />
-            </a>
+            {contactLinks.map((item) => {
+              return (
+                <a href={item.link} target="_blank">
+                  <img
+                    src={item.img}
+                    alt={t(item.alternativeText)}
+                    className="w-9 md:w-12.5 hover:scale-110"
+                  />
+                </a>
+              );
+            })}
           </li>
         </ul>
       </div>
